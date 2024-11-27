@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blockchain Trilemma</title>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Blockchain Trilemma</h1>
+    <p>Visualize the trade-offs between decentralization, scalability, and security.</p>
+  </header>
+  <main>
+    <section class="charts-container">
+      <div class="chart" id="chart-decentralization">
+        <svg>
+          <circle cx="100" cy="100" r="80"></circle>
+          <circle cx="100" cy="100" r="80" class="progress"></circle>
+        </svg>
+        <h2>Decentralization</h2>
+        <p id="decentralization-value">0%</p>
+      </div>
+      <div class="chart" id="chart-scalability">
+        <svg>
+          <circle cx="100" cy="100" r="80"></circle>
+          <circle cx="100" cy="100" r="80" class="progress"></circle>
+        </svg>
+        <h2>Scalability</h2>
+        <p id="scalability-value">0%</p>
+      </div>
+      <div class="chart" id="chart-security">
+        <svg>
+          <circle cx="100" cy="100" r="80"></circle>
+          <circle cx="100" cy="100" r="80" class="progress"></circle>
+        </svg>
+        <h2>Security</h2>
+        <p id="security-value">0%</p>
+      </div>
+    </section>
+    <section class="buttons-container">
+      <button data-blockchain="Ethereum 2.0">Ethereum 2.0</button>
+      <button data-blockchain="Polkadot">Polkadot</button>
+      <button data-blockchain="Solana">Solana</button>
+      <button data-blockchain="Avalanche">Avalanche</button>
+      <button data-blockchain="Cosmos">Cosmos</button>
+      <button data-blockchain="Bitcoin">Bitcoin</button>
+    </section>
+  </main>
+    <footer class="footer">
+        <div class="footer-content">
+          <img src="logo.png" alt="Crypto Force Logo" class="footer-logo">
+          <p>Made with ❤️ for blockchain enthusiasts.</p>
+          <p>© 2024 Crypto Force. Educational project promoting blockchain knowledge.</p>
+        </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
